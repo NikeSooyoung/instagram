@@ -1,79 +1,95 @@
 <html>
     <head>
         <link href="style.css" rel="stylesheet">
+        <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet"/>
     </head>
     <body>
-        <div>
-          <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" width="200px"/>
-          <input type="search" value="SEARCH"/>
-        </div>
-        <div id="profile">
-           <img src="image/profile.jpg" width="50px">
-           <div>
-            <h2>Half_bottle</h2>
-            <button>Profile edit</button>
-           </div>
-        </div>
-        <div> 
-        <p>
-          <strong>
-              Sooyoung Jang
-          </strong><br/>
-         Editor
-      </p>
-      <p>
-          <a href="https://NikeSooyoung.github.io">
-              NikeSooyoung.github.io
-            </a>     
-            </div>
-        <div>
+        <div id="top">
+            <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" width="200px"/>
+            <input type="search" value="SEARCH"/>
             <div>
-                <div>
-                    <div class="highlight">
-                  <div>
-                   <img src="image/h1.JPG" height="35px">
-                  </div>
-                     <div>
-                      😍
-                      </div>
-                </div>
-                <div class="highlight">
-                 <div>
-                   <div>
-                   <img src="image/h2.JPG" height="35px">
-                   </div>
-                   <div>
-                       💕
-                    </div>
+                <i class="fas fa-home"></i>
+                <i class="far fa-paper-plane"></i>
+                <i class="far fa-compass"></i>
+                <i class="far fa-heart"></i>
+            </div>
+        </div>    
+        <div id="profile">
+            <div id="profile_pic">
+             <img class="circle_pic" src="image/profile.jpg"/>
+        </div>
+            <div id="profile_info">
+                 <div id="id">Half_bottle<i class="fas fa-cog"></i>
                  </div>
-        </div> 
+                 <button>Profile edit</button>
+             </div>
+        </div>
         <div> 
-      <div>
-        <div>
+                <strong> Sooyoung Jang</strong>
+                </br>Editor
+            <p>
+              <a href="https://NikeSooyoung.github.io">
+                   NikeSooyoung.github.io
+              </a>
+            </p>       
+         </div>
+         <div id="highlight_area">
+                    <div class="highlight">
+                        <div class="highlight_pic">
+                         <img class="circle_pic" src="Image/h1.JPG"/>
+                        </div>
+                        <div>
+                          😍
+                        </div>
+                        <div></div>
+                    </div>
+                   <div class="highlight">
+                       <div class="highlight_pic">
+                         <img class="circle_pic" src="image/h2.JPG"/>
+                       </div>
+                       <div>
+                         💕
+                    </div>
+                </div>       
+        </div> 
+        <div id="stat_bar">
+          <div class="stat">
             Posting<br/>
             1,380
-        </div>
-        <div>      
+          </div>
+          <div class="stat">      
             Follower<br/>
             339
-        </div>
-        <div>
+          </div>
+          <div class="stat">
             Following<br/>
             294
+          </div>
+        </div>
+        <div id="sub_icons">
+            <div class="selected">
+                <i class="fas fa-border-all"></i>
             </div>
-      </div>
-      <div>아이콘 들어갈 자리</div>
-      <div>게시물 썸네일 들어갈 자리</div>
-      <div>
-          <img src="image/thumbnails/3.JPG" width="32%"/>
-          <img src="image/thumbnails/4.JPG" width="32%"/>
-          <img src="image/thumbnails/5.jpg" width="32%"/>
-          <img src="image/thumbnails/6.jpg" width="32%"/>
-          <img src="image/thumbnails/7.jpg" width="32%"/>
-          <img src="image/thumbnails/8.jpg" width="32%"/>
-          <img src="image/thumbnails/9.jpg" width="32%"/>
-          <img src="image/thumbnails/2.jpg" width="32%"/>
-          <img src="image/thumbnails/10.jpg" width="32%"/>
+            <div><i class="fas fa-film"></i></div>
+            <div><i class="fas fa-play-circle"></i></div>
+            <div><i class="fas fa-user-tag"></i></div>
+        </div>
+        <div>
+          <div class="thumbnail_grid">
+             <img src="image/thumbnails/3.JPG" class="thumbnail"/>
+             <img src="image/thumbnails/4.JPG" class="thumbnail"/>
+             <img src="image/thumbnails/5.jpg" class="thumbnail"/>
+          </div>
+          <div class="thumbnail_grid">    
+            <img src="image/thumbnails/6.jpg" class="thumbnail"/>
+            <img src="image/thumbnails/7.jpg" class="thumbnail"/>
+            <img src="image/thumbnails/8.jpg" class="thumbnail"/>
+          </div>
+          <div class="thumbnail_grid">
+            <img src="image/thumbnails/9.jpg" class="thumbnail"/>
+            <img src="image/thumbnails/2.jpg" class="thumbnail"/>
+            <img src="image/thumbnails/10.jpg" class="thumbnail"/>
+          </div>
       </div>
     </body>
 </html>
